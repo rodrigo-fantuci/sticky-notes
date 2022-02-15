@@ -29,9 +29,12 @@ button {
 }
 
 button:hover {
-  background-color: #663399;
+  background-color: #572d81;
   color: #fff;
-  border: 1px solid #eee;
+}
+
+button i {
+  margin-right: 8px;
 }
 
 .note {
@@ -80,11 +83,8 @@ button:hover {
 }
 
 /* Texts */
-h1, h2, h3, h4, h5, h6 {
-  font-size: 93.75%;
-}
 
 li {
-  list-style-type: square;
+  list-style-type: disc;
   list-style-position: inside;
 }
